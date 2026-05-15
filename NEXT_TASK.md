@@ -2,48 +2,68 @@
 
 ## Assigned agent
 
-Architect Agent or Pre-Research Agent.
+Codex
 
 ## Goal
 
-Define the first real product direction for Green Apple and prepare the next execution step.
+Implement the Green Apple static landing page MVP.
 
 ## Input files to read
 
 - `AGENTS.md`
 - `PROJECT_STATE.md`
 - `NEXT_TASK.md`
-- `agents/pre_research.md`
-- `agents/architect.md`
+- `docs/ARCHITECTURE.md`
+- `docs/TECH_SPEC.md`
+- `docs/DECISIONS.md`
 
 ## Files allowed to edit
 
-For Pre-Research Agent:
-- `research/`
-- `logs/pre_research_runs.md`
+- `index.html`
+- `styles.css`
+- `README.md`
 - `PROJECT_STATE.md`
 - `NEXT_TASK.md`
-
-For Architect Agent:
-- `docs/`
-- `logs/architect_runs.md`
-- `PROJECT_STATE.md`
-- `NEXT_TASK.md`
+- `logs/agent_runs.md`
 
 ## Files forbidden to edit
 
-- `src/` unless explicitly assigned.
-- Existing decisions without updating `docs/DECISIONS.md`.
+- `agents/` unless explicitly requested.
+- `docs/ARCHITECTURE.md` unless implementation reveals a real architecture issue.
+- `docs/TECH_SPEC.md` unless implementation reveals a real specification issue.
 
 ## Expected output
 
-- Clear project goal.
-- MVP boundary.
-- Next Codex-ready task packet or research plan.
+A working static one-page landing page for selling green apples.
+
+Required implementation:
+
+- `index.html`
+- `styles.css`
+- Hero section
+- Benefits section
+- Product offer section
+- Freshness/trust section
+- Contact or purchase CTA section
+- Responsive layout
+
+## Constraints
+
+- No backend.
+- No database.
+- No payment processing.
+- No frameworks.
+- No build step.
+- No external scripts.
+- Keep MVP simple.
 
 ## Definition of done
 
-- Output is written to repository files.
+- `index.html` exists.
+- `styles.css` exists.
+- Page opens locally in browser.
+- CTA is visible.
+- Layout is readable on desktop and mobile.
 - `PROJECT_STATE.md` is updated.
-- `NEXT_TASK.md` points to the next agent.
-- Relevant log is updated.
+- `NEXT_TASK.md` points to Reviewer Agent after implementation.
+- `logs/agent_runs.md` is updated.
