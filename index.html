@@ -3,104 +3,134 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Green Apple — Fresh Green Apples</title>
-  <meta name="description" content="A simple landing page for fresh green apples with benefits, offer details, and a clear order call-to-action.">
+  <title>Green Apple Market — Fresh Green Apples</title>
+  <meta name="description" content="Fresh green apples for 3 rubles each. A vivid fruit-market landing page with a clear direct offer.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Green Apple home">
-      <span class="brand-mark" aria-hidden="true">●</span>
-      <span>Green Apple</span>
+    <a class="brand" href="#top" aria-label="Green Apple Market home">
+      <span class="brand-mark" aria-hidden="true">🍏</span>
+      <span>Green Apple Market</span>
     </a>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="#benefits">Benefits</a>
       <a href="#offer">Offer</a>
+      <a href="#compare">Price</a>
+      <a href="#benefits">Benefits</a>
       <a href="#order">Order</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero section">
+      <div class="market-badge" aria-hidden="true">Fresh market offer</div>
       <div class="hero-content">
-        <p class="eyebrow">Fresh. Crisp. Simple.</p>
-        <h1>Bright green apples for everyday freshness.</h1>
+        <p class="eyebrow">Crisp. Green. Fair price.</p>
+        <h1>Fresh green apples for 3 rubles each.</h1>
         <p class="hero-text">
-          Clean, crisp green apples for snacks, lunch boxes, baking, and simple healthy eating.
+          A bright fruit-market offer: firm green apples, clear price, simple direct order.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="#order">Order now</a>
-          <a class="button secondary" href="#benefits">See benefits</a>
+          <a class="button primary" href="#order">Order for 3 rubles</a>
+          <a class="button secondary" href="#compare">See price difference</a>
         </div>
       </div>
-      <div class="hero-card" aria-label="Green apple product card">
-        <div class="apple-visual" aria-hidden="true">🍏</div>
-        <p class="card-label">Fresh green apples</p>
-        <p class="card-text">Crisp taste. Simple offer. Easy contact.</p>
+
+      <aside class="fruit-stall" aria-label="Fruit market style offer card">
+        <div class="stall-topline">Market pick</div>
+        <div class="fruit-wall" aria-hidden="true">
+          <span>🍏</span><span>🍎</span><span>🍊</span><span>🍋</span><span>🍇</span>
+          <span>🍅</span><span>🍏</span><span>🍐</span><span>🍍</span><span>🥝</span>
+          <span>🍊</span><span>🍎</span><span>🍏</span><span>🍋</span><span>🍅</span>
+          <span>🍇</span><span>🍏</span><span>🍐</span><span>🍊</span><span>🍎</span>
+        </div>
+        <div class="price-tag">
+          <span class="price-label">Green apples</span>
+          <strong>3 rubles</strong>
+          <span>each</span>
+        </div>
+      </aside>
+    </section>
+
+    <section id="offer" class="section offer-section">
+      <div class="section-heading">
+        <p class="eyebrow">Direct offer</p>
+        <h2>No vague premium words. Just good green apples.</h2>
+      </div>
+      <div class="offer-panel">
+        <div>
+          <p>
+            Fresh green apples should be simple: crisp, clean, green, and fairly priced.
+            Our example offer is direct: fresh green apples for 3 rubles each.
+          </p>
+          <p>
+            You get exactly what you came for: bright green apples with a clean bite and a clear market price.
+          </p>
+        </div>
+        <ul class="offer-list" aria-label="Offer highlights">
+          <li><strong>3 rubles</strong> per apple</li>
+          <li>Fresh green apples</li>
+          <li>Crisp bite and clean taste</li>
+          <li>Simple direct order</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="compare" class="section compare-section">
+      <div class="compare-header">
+        <p class="eyebrow">Market comparison</p>
+        <h2>The price difference is the whole story.</h2>
+      </div>
+      <div class="price-comparison" aria-label="Market price comparison">
+        <article class="comparison-card usual">
+          <span class="comparison-kicker">Common example price</span>
+          <h3>5 rubles</h3>
+          <p>A higher example price for a regular market apple offer.</p>
+        </article>
+        <article class="comparison-card ours">
+          <span class="comparison-kicker">Our example offer</span>
+          <h3>3 rubles</h3>
+          <p>Fresh green apples with a firm crunch and clean taste.</p>
+        </article>
       </div>
     </section>
 
     <section id="benefits" class="section benefits-section">
       <div class="section-heading">
-        <p class="eyebrow">Why green apples</p>
-        <h2>Simple benefits people understand fast.</h2>
+        <p class="eyebrow">Why buy here</p>
+        <h2>A market offer people understand in three seconds.</h2>
       </div>
       <div class="benefits-grid">
         <article class="benefit-card">
+          <span aria-hidden="true">🍏</span>
           <h3>Fresh crunch</h3>
-          <p>Green apples are known for a crisp bite and clean taste.</p>
+          <p>Firm green apples with the clean bite people expect.</p>
         </article>
         <article class="benefit-card">
-          <h3>Healthy snack</h3>
-          <p>A simple fruit option for home, work, school, or travel.</p>
+          <span aria-hidden="true">🏷️</span>
+          <h3>Better price</h3>
+          <p>3 rubles each instead of the 5-ruble example market price.</p>
         </article>
         <article class="benefit-card">
-          <h3>Great for recipes</h3>
-          <p>Use them for salads, baking, smoothies, or fresh plates.</p>
+          <span aria-hidden="true">🧺</span>
+          <h3>Direct order</h3>
+          <p>No cart, no account, no checkout maze. Just contact and buy.</p>
         </article>
         <article class="benefit-card">
-          <h3>Easy ordering</h3>
-          <p>One clear contact action. No cart, no complex checkout in this MVP.</p>
+          <span aria-hidden="true">✅</span>
+          <h3>Clear offer</h3>
+          <p>Simple product, clear price, honest market-style presentation.</p>
         </article>
-      </div>
-    </section>
-
-    <section id="offer" class="section offer-section">
-      <div class="offer-panel">
-        <div>
-          <p class="eyebrow">Product offer</p>
-          <h2>Fresh green apples for 3 rubles each.</h2>
-          <p>
-            Why pay 5 rubles for apples that may already be soft, old, or poorly stored?
-          </p>
-          <p>
-            We offer fresh green apples with a crisp bite, clean taste, and a simple direct price:
-            <strong>3 rubles per apple.</strong>
-          </p>
-          <p>
-            No fake premium. No overpaying. No complicated order process.
-          </p>
-          <p>
-            Just fresh green apples at a fair price.
-          </p>
-        </div>
-        <ul class="offer-list" aria-label="Offer highlights">
-          <li>3 rubles per apple</li>
-          <li>Fresh green apples</li>
-          <li>No fake premium</li>
-          <li>No overpaying</li>
-          <li>Simple direct order</li>
-        </ul>
       </div>
     </section>
 
     <section class="section trust-section">
       <div class="trust-content">
         <p class="eyebrow">Freshness and trust</p>
-        <h2>Built around a direct, honest offer.</h2>
+        <h2>Good apples at a fair example price.</h2>
         <p>
-          This MVP avoids fake complexity. It presents the product, the benefits, and one clear next step.
-          Real farm, supplier, delivery, and payment details can be added later when confirmed.
+          The point is not complicated: people want good apples at a fair price.
+          This page sells that one promise clearly — fresh green apples for 3 rubles each.
         </p>
       </div>
     </section>
@@ -110,7 +140,7 @@
         <p class="eyebrow">Ready to buy?</p>
         <h2>Order fresh green apples today.</h2>
         <p>
-          Contact us to confirm quantity, price, pickup, or delivery details.
+          Contact us to confirm quantity, pickup, or delivery details.
         </p>
         <a class="button primary large" href="mailto:hello@example.com?subject=Green%20Apple%20Order">Contact us</a>
         <p class="cta-note">Placeholder contact email. Replace when the real contact channel is selected.</p>
@@ -119,7 +149,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>© 2026 Green Apple. Static MVP landing page draft.</p>
+    <p>Green Apple Market — fresh market offer. Static MVP landing page.</p>
   </footer>
 </body>
 </html>
