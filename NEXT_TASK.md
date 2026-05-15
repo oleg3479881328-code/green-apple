@@ -2,21 +2,23 @@
 
 ## Assigned agent
 
-Draft Coder Agent running on ChatGPT.
+Codex in VS Code.
 
 ## Goal
 
-Create the first implementation draft for the Green Apple static landing page MVP before handing final integration to Codex.
+Verify, clean up, and finalize the first static landing page MVP draft created by Draft Coder Agent.
 
 ## Input files to read
 
 - `AGENTS.md`
 - `PROJECT_STATE.md`
 - `NEXT_TASK.md`
-- `agents/draft_coder.md`
+- `index.html`
+- `styles.css`
 - `docs/ARCHITECTURE.md`
 - `docs/TECH_SPEC.md`
 - `docs/DECISIONS.md`
+- `logs/agent_runs.md`
 
 ## Files allowed to edit
 
@@ -32,17 +34,16 @@ Create the first implementation draft for the Green Apple static landing page MV
 - `agents/` unless explicitly requested.
 - `docs/ARCHITECTURE.md` unless implementation reveals a real architecture issue.
 - `docs/TECH_SPEC.md` unless implementation reveals a real specification issue.
+- Backend, database, payment, inventory, or framework files.
 
-## Expected output
+## Current implementation draft
 
-A clean first draft of a static one-page landing page for selling green apples.
-
-Required draft files:
+Created files:
 
 - `index.html`
 - `styles.css`
 
-Required page sections:
+Included sections:
 
 - Hero section
 - Benefits section
@@ -51,22 +52,26 @@ Required page sections:
 - Contact or purchase CTA section
 - Responsive layout
 
-## Constraints
+## Codex verification tasks
 
-- No backend.
-- No database.
-- No payment processing.
-- No frameworks.
-- No build step.
-- No external scripts.
-- Keep MVP simple.
-- Treat this as a draft that Codex must later verify and refine.
+1. Open `index.html` locally.
+2. Confirm `styles.css` loads correctly.
+3. Confirm the page is readable on desktop width.
+4. Confirm the page is readable on mobile width.
+5. Confirm all section links work.
+6. Confirm there are no broken local references.
+7. Check HTML validity and basic accessibility.
+8. Improve only obvious issues without changing MVP scope.
+9. Keep the project static: no backend, no database, no payment processing, no framework, no build step, no external scripts.
+10. Update `PROJECT_STATE.md`, `NEXT_TASK.md`, and `logs/agent_runs.md` after verification.
 
 ## Definition of done
 
-- `index.html` exists.
-- `styles.css` exists.
-- Page content matches `docs/TECH_SPEC.md`.
-- `PROJECT_STATE.md` is updated.
-- `NEXT_TASK.md` points to Codex for verification, cleanup, and final integration.
-- `logs/agent_runs.md` is updated.
+- Landing page opens locally.
+- `index.html` and `styles.css` are valid for MVP.
+- Responsive layout is checked.
+- CTA is visible.
+- No missing local assets or scripts.
+- `PROJECT_STATE.md` records verified implementation status.
+- `NEXT_TASK.md` points to the next real task after verification.
+- `logs/agent_runs.md` records the Codex verification run.
