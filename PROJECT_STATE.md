@@ -6,11 +6,15 @@ Green Apple
 
 ## Current stage
 
-Bootstrap initialized.
+Architecture initialized for MVP landing page.
 
-## Current goal
+## Current product goal
 
-Create a repo-native AI project structure where ChatGPT, Codex, and other AI runtimes can coordinate through repository files.
+Create a simple landing page for selling green apples.
+
+## Current MVP goal
+
+Build a static one-page website that clearly presents green apples, explains the offer, shows key benefits, and provides a call-to-action for purchase/contact.
 
 ## Accepted decisions
 
@@ -21,6 +25,8 @@ Create a repo-native AI project structure where ChatGPT, Codex, and other AI run
 - Architecture and decisions are stored in `docs/`.
 - Research outputs are stored in `research/`.
 - Agent activity is logged in `logs/`.
+- Green Apple product direction is a landing page for selling green apples.
+- MVP must stay static and simple before adding backend, payments, inventory, or delivery logic.
 
 ## Current structure
 
@@ -34,15 +40,17 @@ Create a repo-native AI project structure where ChatGPT, Codex, and other AI run
 
 ## Known problems
 
-- Project product goal is not defined yet.
-- No architecture exists yet.
 - No source code exists yet.
+- Brand style is not defined yet.
+- Final copywriting is not approved yet.
+- Purchase/contact mechanism is not selected yet.
 
 ## Do not change
 
 - Do not treat this repository as a finished application.
-- Do not implement code before architecture is created.
+- Do not add backend, database, payment processing, or complex ordering logic in MVP.
+- Do not over-engineer the first implementation.
 
 ## Next required action
 
-Run Pre-Research Agent or Architect Agent depending on the chosen product goal.
+Run Codex to implement a static landing page MVP according to `docs/ARCHITECTURE.md`, `docs/TECH_SPEC.md`, and `NEXT_TASK.md`.
