@@ -2,17 +2,18 @@
 
 ## Assigned agent
 
-Codex
+Draft Coder Agent running on ChatGPT.
 
 ## Goal
 
-Implement the Green Apple static landing page MVP.
+Create the first implementation draft for the Green Apple static landing page MVP before handing final integration to Codex.
 
 ## Input files to read
 
 - `AGENTS.md`
 - `PROJECT_STATE.md`
 - `NEXT_TASK.md`
+- `agents/draft_coder.md`
 - `docs/ARCHITECTURE.md`
 - `docs/TECH_SPEC.md`
 - `docs/DECISIONS.md`
@@ -34,12 +35,15 @@ Implement the Green Apple static landing page MVP.
 
 ## Expected output
 
-A working static one-page landing page for selling green apples.
+A clean first draft of a static one-page landing page for selling green apples.
 
-Required implementation:
+Required draft files:
 
 - `index.html`
 - `styles.css`
+
+Required page sections:
+
 - Hero section
 - Benefits section
 - Product offer section
@@ -56,14 +60,13 @@ Required implementation:
 - No build step.
 - No external scripts.
 - Keep MVP simple.
+- Treat this as a draft that Codex must later verify and refine.
 
 ## Definition of done
 
 - `index.html` exists.
 - `styles.css` exists.
-- Page opens locally in browser.
-- CTA is visible.
-- Layout is readable on desktop and mobile.
+- Page content matches `docs/TECH_SPEC.md`.
 - `PROJECT_STATE.md` is updated.
-- `NEXT_TASK.md` points to Reviewer Agent after implementation.
+- `NEXT_TASK.md` points to Codex for verification, cleanup, and final integration.
 - `logs/agent_runs.md` is updated.
