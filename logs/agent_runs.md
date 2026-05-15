@@ -39,3 +39,28 @@ Open problems:
 Next task:
 - Codex in VS Code must verify, test locally, clean up obvious issues, and update project state/logs.
 ```
+
+```text
+Date: 2026-05-14
+Agent: ChatGPT frontend redesign pass
+Goal: Redesign the static Green Apple landing page into a vivid fruit-market commercial MVP using the provided fruit market references and frontend-design direction.
+Files changed:
+- index.html
+- styles.css
+- PROJECT_STATE.md
+- NEXT_TASK.md
+- logs/agent_runs.md
+Decisions:
+- Shifted visual direction from clean generic green landing page to fruit-market abundance.
+- Added market-style offer: fresh green apples for 3 rubles each.
+- Added comparison section: 5-ruble example market price versus 3-ruble Green Apple offer.
+- Added dense fruit-stall visual language with CSS-only fruit grid, price tags, bold market typography, vivid colors, and hard shadow style.
+- Kept implementation static with no backend, database, payment processing, framework, build step, or external scripts.
+Open problems:
+- Real contact channel is still not selected.
+- CTA still uses placeholder email hello@example.com.
+- Manual local browser verification has not been run.
+- Codex has not yet validated the redesigned implementation.
+Next task:
+- Codex in VS Code must verify the redesigned landing page locally, check desktop/mobile layout, confirm CSS loading, inspect accessibility/readability, and update state/logs.
+```
