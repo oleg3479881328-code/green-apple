@@ -6,7 +6,7 @@ Green Apple
 
 ## Current stage
 
-Architecture initialized for MVP landing page.
+Static landing page draft created.
 
 ## Current product goal
 
@@ -33,17 +33,29 @@ Build a static one-page website that clearly presents green apples, explains the
 - `AGENTS.md` — global repo contract.
 - `PROJECT_STATE.md` — current project state.
 - `NEXT_TASK.md` — next task handoff.
+- `index.html` — static landing page draft.
+- `styles.css` — landing page styles.
 - `agents/` — agent role files.
 - `docs/` — architecture and specification.
 - `research/` — open-source and market research.
 - `logs/` — agent run logs and decision logs.
 
+## Current implementation status
+
+- `index.html` exists.
+- `styles.css` exists.
+- MVP sections included: hero, benefits, product offer, freshness/trust, and contact/purchase CTA.
+- Implementation uses plain HTML and CSS.
+- No backend, database, payment processing, framework, build step, or external scripts were added.
+
 ## Known problems
 
-- No source code exists yet.
-- Brand style is not defined yet.
+- Brand style is still draft-level and not final.
 - Final copywriting is not approved yet.
-- Purchase/contact mechanism is not selected yet.
+- Real purchase/contact mechanism is not selected yet.
+- CTA uses placeholder email `hello@example.com`.
+- Manual browser verification has not been run in the user's local environment.
+- Codex has not yet validated or refined the draft.
 
 ## Do not change
 
@@ -53,4 +65,4 @@ Build a static one-page website that clearly presents green apples, explains the
 
 ## Next required action
 
-Run Codex to implement a static landing page MVP according to `docs/ARCHITECTURE.md`, `docs/TECH_SPEC.md`, and `NEXT_TASK.md`.
+Run Codex to verify the static landing page draft, test it locally, clean up any issues, and prepare final MVP integration according to `docs/ARCHITECTURE.md`, `docs/TECH_SPEC.md`, and `NEXT_TASK.md`.
