@@ -6,7 +6,7 @@ Codex in VS Code.
 
 ## Goal
 
-Verify, clean up, and finalize the first static landing page MVP draft created by Draft Coder Agent.
+Verify, clean up, and finalize the redesigned fruit-market static landing page MVP.
 
 ## Input files to read
 
@@ -34,41 +34,48 @@ Verify, clean up, and finalize the first static landing page MVP draft created b
 - `agents/` unless explicitly requested.
 - `docs/ARCHITECTURE.md` unless implementation reveals a real architecture issue.
 - `docs/TECH_SPEC.md` unless implementation reveals a real specification issue.
-- Backend, database, payment, inventory, or framework files.
+- Backend, database, payment, inventory, framework, or build files.
 
 ## Current implementation draft
 
-Created files:
+Created/updated files:
 
 - `index.html`
 - `styles.css`
+- `PROJECT_STATE.md`
+- `NEXT_TASK.md`
 
 Included sections:
 
-- Hero section
-- Benefits section
-- Product offer section
-- Freshness/trust section
-- Contact or purchase CTA section
-- Responsive layout
+- Hero section with 3-ruble offer.
+- Direct offer section.
+- Market comparison section: 5-ruble example price versus 3-ruble Green Apple offer.
+- Benefits section.
+- Freshness/trust section.
+- Contact or purchase CTA section.
+- Responsive layout.
 
 ## Codex verification tasks
 
 1. Open `index.html` locally.
 2. Confirm `styles.css` loads correctly.
-3. Confirm the page is readable on desktop width.
-4. Confirm the page is readable on mobile width.
-5. Confirm all section links work.
-6. Confirm there are no broken local references.
-7. Check HTML validity and basic accessibility.
-8. Improve only obvious issues without changing MVP scope.
-9. Keep the project static: no backend, no database, no payment processing, no framework, no build step, no external scripts.
-10. Update `PROJECT_STATE.md`, `NEXT_TASK.md`, and `logs/agent_runs.md` after verification.
+3. Confirm fruit-market visual style renders correctly.
+4. Confirm the page is readable on desktop width.
+5. Confirm the page is readable on mobile width.
+6. Confirm all section links work.
+7. Confirm there are no broken local references.
+8. Check HTML validity and basic accessibility.
+9. Improve only obvious issues without changing MVP scope.
+10. Keep the project static: no backend, no database, no payment processing, no framework, no build step, no external scripts.
+11. Update `PROJECT_STATE.md`, `NEXT_TASK.md`, and `logs/agent_runs.md` after verification.
 
 ## Definition of done
 
 - Landing page opens locally.
 - `index.html` and `styles.css` are valid for MVP.
+- Fruit-market style is visible and coherent.
+- Offer is clear within 3 seconds.
+- Price comparison is visible.
 - Responsive layout is checked.
 - CTA is visible.
 - No missing local assets or scripts.
