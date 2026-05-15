@@ -14,8 +14,16 @@ Agents are stored as Markdown role files in `agents/`, not as platform-locked as
 
 The project must prioritize minimal working progress over over-engineering.
 
+### D-004 — Product direction
+
+Green Apple is a landing page for selling green apples.
+
+### D-005 — Static MVP
+
+The first MVP must be a static one-page website using simple HTML and CSS. No backend, database, payment system, or inventory logic in the first implementation.
+
 ## Pending decisions
 
-- Product direction for Green Apple.
-- Technology stack.
-- First implementation target.
+- Final brand copy.
+- Real purchase/contact channel.
+- Deployment target confirmation, likely GitHub Pages.
