@@ -6,15 +6,15 @@ Green Apple
 
 ## Current stage
 
-Static landing page draft created.
+Static landing page redesigned into fruit-market commercial MVP draft.
 
 ## Current product goal
 
-Create a simple landing page for selling green apples.
+Create a vivid fruit-market style landing page for selling green apples.
 
 ## Current MVP goal
 
-Build a static one-page website that clearly presents green apples, explains the offer, shows key benefits, and provides a call-to-action for purchase/contact.
+Build a static one-page website that clearly presents fresh green apples, explains the 3-ruble offer, compares it with a 5-ruble example market price, shows key benefits, and provides a call-to-action for purchase/contact.
 
 ## Accepted decisions
 
@@ -27,14 +27,15 @@ Build a static one-page website that clearly presents green apples, explains the
 - Agent activity is logged in `logs/`.
 - Green Apple product direction is a landing page for selling green apples.
 - MVP must stay static and simple before adding backend, payments, inventory, or delivery logic.
+- Visual direction is now fruit-market abundance: vivid colors, produce-stall feeling, price tags, and direct commercial offer.
 
 ## Current structure
 
 - `AGENTS.md` — global repo contract.
 - `PROJECT_STATE.md` — current project state.
 - `NEXT_TASK.md` — next task handoff.
-- `index.html` — static landing page draft.
-- `styles.css` — landing page styles.
+- `index.html` — redesigned static landing page draft.
+- `styles.css` — fruit-market visual styles.
 - `agents/` — agent role files.
 - `docs/` — architecture and specification.
 - `research/` — open-source and market research.
@@ -42,20 +43,21 @@ Build a static one-page website that clearly presents green apples, explains the
 
 ## Current implementation status
 
-- `index.html` exists.
-- `styles.css` exists.
-- MVP sections included: hero, benefits, product offer, freshness/trust, and contact/purchase CTA.
+- `index.html` exists and was redesigned for a fruit-market commercial offer.
+- `styles.css` exists and was redesigned with vivid market colors, price-card styling, dense fruit-stall composition, responsive layout, and no external dependencies.
+- MVP sections included: hero, direct offer, market price comparison, benefits, freshness/trust, and contact/purchase CTA.
+- Commercial example offer added: fresh green apples for 3 rubles each.
+- Market comparison added: 5-ruble example price versus 3-ruble Green Apple offer.
 - Implementation uses plain HTML and CSS.
 - No backend, database, payment processing, framework, build step, or external scripts were added.
 
 ## Known problems
 
-- Brand style is still draft-level and not final.
-- Final copywriting is not approved yet.
 - Real purchase/contact mechanism is not selected yet.
 - CTA uses placeholder email `hello@example.com`.
 - Manual browser verification has not been run in the user's local environment.
-- Codex has not yet validated or refined the draft.
+- Codex has not yet validated the redesigned implementation.
+- Final real business details are still placeholders/examples.
 
 ## Do not change
 
@@ -65,4 +67,4 @@ Build a static one-page website that clearly presents green apples, explains the
 
 ## Next required action
 
-Run Codex to verify the static landing page draft, test it locally, clean up any issues, and prepare final MVP integration according to `docs/ARCHITECTURE.md`, `docs/TECH_SPEC.md`, and `NEXT_TASK.md`.
+Run Codex to verify the redesigned static landing page locally, check desktop/mobile layout, confirm CSS loading, inspect accessibility/readability, and update project state/logs after verification.
