@@ -248,7 +248,8 @@ h3 {
 .offer-panel,
 .trust-content,
 .cta-card,
-.comparison-card {
+.comparison-card,
+.gallery-card {
   border: 4px solid var(--ink);
   background: var(--paper);
   box-shadow: var(--stall-shadow);
@@ -333,6 +334,72 @@ h3 {
 .compare-header {
   max-width: 940px;
   margin-bottom: 34px;
+}
+
+.gallery-section {
+  padding-top: 34px;
+}
+
+.market-gallery {
+  display: grid;
+  grid-template-columns: 1.15fr 0.9fr 0.9fr;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.gallery-card {
+  position: relative;
+  min-height: 280px;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 26px;
+  transform: rotate(-1deg);
+}
+
+.gallery-card:nth-child(2) {
+  transform: rotate(1.2deg);
+}
+
+.gallery-card:nth-child(3) {
+  transform: rotate(-1.6deg);
+}
+
+.gallery-card:nth-child(4) {
+  transform: rotate(1.6deg);
+}
+
+.gallery-card:nth-child(5) {
+  transform: rotate(-0.8deg);
+}
+
+.gallery-wide {
+  grid-row: span 2;
+}
+
+.gallery-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+  object-fit: cover;
+  filter: saturate(1.18) contrast(1.05);
+}
+
+.gallery-card figcaption {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  margin: 0;
+  padding: 9px 13px;
+  border: 3px solid var(--ink);
+  border-radius: 999px;
+  background: var(--lemon);
+  box-shadow: 4px 4px 0 rgba(35, 21, 13, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 1000;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
 }
 
 .offer-panel {
@@ -490,7 +557,8 @@ h3 {
 @media (max-width: 980px) {
   .hero,
   .offer-panel,
-  .price-comparison {
+  .price-comparison,
+  .market-gallery {
     grid-template-columns: 1fr;
   }
 
@@ -499,6 +567,10 @@ h3 {
     width: max-content;
     max-width: 100%;
     margin-bottom: 20px;
+  }
+
+  .gallery-wide {
+    grid-row: auto;
   }
 
   .benefits-grid {
@@ -527,6 +599,11 @@ h3 {
 
   .fruit-wall {
     grid-template-columns: repeat(4, minmax(38px, 1fr));
+  }
+
+  .gallery-card,
+  .gallery-card img {
+    min-height: 230px;
   }
 
   .benefits-grid {
